@@ -1,0 +1,36 @@
+NET "clk" LOC = B8;
+NET "rst" LOC = G12;
+
+NET "pin[0]" LOC = G3;
+NET "pin[3]" LOC = N3;
+NET "pin[2]" LOC = E2;
+NET "pin[1]" LOC = F3;
+
+NET "clk_div[3]" LOC = B4;
+NET "clk_div[2]" LOC = K3;
+NET "clk_div[1]" LOC = L3;
+NET "clk_div[0]" LOC = P11;
+
+NET "paddr[3]" LOC = G1;
+NET "paddr[2]" LOC = P4;
+NET "paddr[1]" LOC = N4;
+NET "paddr[0]" LOC = N5;
+
+NET "pout[3]" LOC = P6;
+NET "pout[2]" LOC = P7;
+NET "pout[1]" LOC = M11;
+NET "pout[0]" LOC = M5;
+
+NET "seg_sel[3]" LOC = K14;
+NET "seg_sel[2]" LOC = M13;
+NET "seg_sel[1]" LOC = J12;
+NET "seg_sel[0]" LOC = F12;
+
+NET "seg_data[7]" LOC = L14;
+NET "seg_data[6]" LOC = H12;
+NET "seg_data[5]" LOC = N14;
+NET "seg_data[4]" LOC = N11;
+NET "seg_data[3]" LOC = P12;
+NET "seg_data[2]" LOC = L13;
+NET "seg_data[1]" LOC = M12;
+NET "seg_data[0]" LOC = N13;

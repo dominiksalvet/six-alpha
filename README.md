@@ -17,7 +17,6 @@ There is the TODO list stated below. I am going to work on it as soon as the [Li
   * [`data_mem_const.vhd`](src/data_mem_const.vhd)
   * [`inst_mem.vhd`](src/inst_mem.vhd)
   * [`programming.vhd`](src/programming.vhd)
-* create a basys2 implementation
 * remaster all VHDL module's files (the second iteration - light optimization, commenting)
 * remaster all test bench files (create meaningful simulations, commenting)
 * transfer documentation files
