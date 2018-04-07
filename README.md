@@ -4,7 +4,7 @@ Six Alpha is a 4-bit RISC processor architecture implemented as a softcore proce
 
 There is the TODO list stated below. I am going to work on it as soon as the [Limen Alpha Processor repository](https://github.com/dominiksalvet/limen_alpha) will be in a stable state.
 
-## TODO list:
+## To do list:
 * remove [*sim_data_types.vhd*](src/sim_data_types.vhd) as deprecated way of simulating modules
 * use generic modules from my [vhdl_collection](https://github.com/dominiksalvet/vhdl_collection) repository
 * rename source files to be consistent across all my projects
