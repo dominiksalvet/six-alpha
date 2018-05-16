@@ -26,7 +26,7 @@ There is the TODO list stated below. I am going to work on it as soon as the [Li
 
 ## License
 
-This project is licensed under an Open Source Initiative approved license, the MIT License. See the [*LICENSE.txt*](LICENSE.txt) file for details.
+This project is licensed under an Open Source Initiative approved license, the MIT License. See the [*LICENSE.txt*](LICENSE.txt) file for details. Individual files contain the SPDX license identifier instead of the full license text.
 
 <p align="center">
   <a href="http://opensource.org/">
