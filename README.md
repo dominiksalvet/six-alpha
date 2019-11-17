@@ -1,3 +1,7 @@
+**This repository is going to be [remastered](https://github.com/users/dominiksalvet/projects/2#card-26446302) sometime in the future.**
+
+---
+
 # Six Alpha Processor
 
 Six Alpha is a 4-bit RISC processor architecture implemented as a softcore processor described in VHDL. It is based on my first processor I have described in VHDL. The whole code in the very moment is in it's original form.
