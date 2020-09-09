@@ -4,6 +4,8 @@
 
 # Six Alpha Processor
 
+![Six Alpha pipeline](img/pipeline.png)
+
 Six Alpha is a 4-bit RISC processor architecture implemented as a softcore processor described in VHDL. It is based on my first processor I have described in VHDL. The whole code in the very moment is in it's original form.
 
 There is the TODO list stated below. I am going to work on it as soon as the [Limen Alpha Processor repository](https://github.com/dominiksalvet/limen_alpha) will be in a stable state.
