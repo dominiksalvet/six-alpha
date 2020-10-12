@@ -1,0 +1,13 @@
+-- == Output test ==
+-- port 1 with all ones indicates preparing state
+-- the rest of program switches value on port 1 between 0001 and 1000
+
+0 => "00010001",	-- LI 15
+1 => "00111101",	-- ST 13
+2 => "00011001",	-- LI 9
+3 => "00111111",	-- ST 15
+4 => "00010001",	-- LI 1
+5 => "00111101",	-- ST 13
+6 => "00011000",	-- LI 8
+7 => "00111101",	-- ST 13
+8 => "10000100",	-- JMP 4

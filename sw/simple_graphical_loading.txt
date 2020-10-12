@@ -1,0 +1,16 @@
+-- == Simple graphical loading ==
+-- 4 leds are connected to port 1
+-- create simple loading emulation program
+-- only one led is switched on at one time
+
+0 => "00011001",	-- LI 9
+1 => "00111111",	-- ST 15
+2 => "00010001",	-- LI 1
+3 => "00111101",	-- ST 13
+4 => "00010010",	-- LI 2
+5 => "00111101",	-- ST 13
+6 => "00010100",	-- LI 4
+7 => "00111101",	-- ST 13
+8 => "00011000",	-- LI 8
+9 => "00111101",	-- ST 13
+10 => "10000010",	-- JMP 2

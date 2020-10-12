@@ -1,0 +1,27 @@
+-- == Compare two numbers ==
+-- read port 3 and port 2 values
+-- subtract the first value from the second value (port2 - port3)
+-- after the subtraction, port 1 indicate flags from this operation
+-- then, if compared port 3 value is greater than port 2 value, port 1 will be filled with ones
+-- then repeat all
+
+0 => "00010000",	-- LI 0
+1 => "00111100",	-- ST 12
+2 => "00010011",	-- LI 3
+3 => "00111111",	-- ST 15
+4 => "00101110",	-- LD 14
+5 => "00110111",	-- ST 7
+6 => "00010010",	-- LI 2
+7 => "00111111",	-- ST 15
+8 => "00101110",	-- LD 14
+9 => "01010111",	-- SUB 7
+10 => "00101100",	-- LD 12
+11 => "00111101",	-- ST 13
+12 => "00011001",	-- LI 9
+13 => "00111111",	-- ST 15
+14 => "00101100",	-- LD 12
+15 => "00000011",	-- SB 3
+16 => "10000000",	-- JMP 2
+17 => "00011111",	-- LI 15
+18 => "00111101",	-- ST 13
+19 => "10000010",	-- JMP 2

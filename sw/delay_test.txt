@@ -1,0 +1,28 @@
+-- == Delay test ==
+-- create a delay using conditional branching
+-- after each delay's iteration, port 1 indicate flag register
+-- when delay is completed, port 1 will be filled with only ones
+-- program ends with jump instruction to itself
+
+0 => "00010000",	-- LI 0
+1 => "00111100",	-- ST 12
+2 => "00110101",	-- ST 5
+3 => "00010001",	-- LI 1
+4 => "00110110",	-- ST 6
+5 => "00100101",	-- LD 5
+6 => "01000110",	-- ADD 6
+7 => "00110101",	-- ST 5
+8 => "00101100",	-- LD 12
+9 => "00111101",	-- ST 13
+10 => "00011001",	-- LI 9
+11 => "00111111",	-- ST 15
+12 => "00010000",	-- LI 0
+13 => "00111111",	-- ST 15
+14 => "00101100",	-- LD 12
+15 => "00000011",	-- SB 3
+16 => "10000101",	-- JMP 5
+17 => "00011111",	-- LI 15
+18 => "00111101",	-- ST 13
+19 => "00011001",	-- LI 9
+20 => "00111111",	-- ST 15
+21 => "10010101",	-- JMP 21
