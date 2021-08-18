@@ -1,41 +1,24 @@
-**This repository is going to be [remastered](https://github.com/users/dominiksalvet/projects/2#card-26446302) sometime in the future.**
-
----
-
-# Six Alpha Processor
+# Six Alpha
 
 ![Six Alpha pipeline](doc/img/pipeline.png)
 
-Six Alpha is a 4-bit RISC processor architecture implemented as a softcore processor described in VHDL. It is based on my first processor I have described in VHDL. The whole code in the very moment is in it's original form.
+> Accumulator-based 4-bit processor.
 
-There is the TODO list stated below. I am going to work on it as soon as the [Limen Alpha Processor repository](https://github.com/dominiksalvet/limen-alpha) will be in a stable state.
+Six Alpha is a 4-bit accumulator-based processor architecture implemented as a softcore processor described in VHDL. It is based on my very first processor I have created in VHDL, which was tested on an Altera FPGA board. Later, it was ported to Digilent Basys 2 board.
 
-## To do list
-* remove [*sim_data_types.vhd*](src/sim_data_types.vhd) as deprecated way of simulating modules
-* use generic modules from my [vhdl_collection](https://github.com/dominiksalvet/vhdl_collection) repository
-* rename source files to be consistent across all my projects
-* remaster the following source files (the first iteration - code formatting):
-  * [*alu.vhd*](src/alu.vhd)
-  * [*alu_const.vhd*](src/alu_const.vhd)
-  * [*core.vhd*](src/core.vhd)
-  * [*core_const.vhd*](src/core_const.vhd)
-  * [*data_mem.vhd*](src/data_mem.vhd)
-  * [*data_mem_const.vhd*](src/data_mem_const.vhd)
-  * [*inst_mem.vhd*](src/inst_mem.vhd)
-  * [*programming.vhd*](src/programming.vhd)
-* remaster all VHDL module's files (the second iteration - light optimization, commenting)
-* remaster all test bench files (create meaningful simulations, commenting)
-* transfer documentation files
-* transfer common software for the processor
-* create a testing software for the basys2 implementation
-* create a meaningful [*README.md*](README.md) file
+The next traits include:
 
-## License
+* Harvard memory architecture
+* May address up to 128 B of instructions
+* May address up to 16 nibbles of data
+* I/O ports in data memory address space
 
-This project is licensed under an Open Source Initiative approved license, the MIT License. See the [*LICENSE.txt*](LICENSE.txt) file for details. Individual files contain the SPDX license identifier instead of the full license text.
+## Machine Code
 
-<p align="center">
-  <a href="http://opensource.org/">
-    <img src="https://opensource.org/files/osi_logo_bold_300X400_90ppi.png" width="100">
-  </a>
-</p>
+If you are curious what the machine code of Six Alpha looks like, browse the [collection of such programs](sw).
+
+## Useful Resources
+
+* [support.md](support.md) – questions, answers, help
+* [contributing.md](contributing.md) – how to get involve
+* [license](license) – author and license
