@@ -17,6 +17,15 @@ The next traits include:
 
 If you are curious what the machine code of Six Alpha looks like, browse the [collection of such programs](sw).
 
+## Original Plan
+
+The original intention was to design and release also the following Six processor.
+
+### Six Beta
+
+* Pipelining capability
+* Instruction memory programming interface
+
 ## Useful Resources
 
 * [support.md](support.md) – questions, answers, help
