@@ -2,8 +2,6 @@
 
 ![Six Alpha pipeline](doc/img/pipeline.png)
 
-> Accumulator-based 4-bit processor.
-
 Six Alpha is a 4-bit accumulator-based processor architecture implemented as a softcore processor described in VHDL. It is based on my [very first processor](https://github.com/dominiksalvet/pcycle) I have created in VHDL from 2015, which was tested on an Altera FPGA board. Later, it was ported to Digilent Basys 2 board.
 
 The next traits include:
